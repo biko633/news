@@ -6,6 +6,7 @@ const listId = process.env.MLIST_ID;
 
 
 
+
 mailchimp.setConfig({
   apiKey: process.env.MAPI_KEY,
   server: process.env.MSERVER_ID,
