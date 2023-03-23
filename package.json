@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "env-cmd node --watch app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sarah",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "@mailchimp/mailchimp_transactional": "^1.0.50",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "mailchimp": "^0.2.0"
   }
 }
